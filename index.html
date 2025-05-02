@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="area">
+        <!-- action é para conectar a linguagem de programação ao formulario -->
+        <form class="form" action="cadastro.php" method="post">
+            <fieldset>
+                <legend>Inscreva-se</legend>
+                <!-- serve para definir uma legenda para um elemento de formulário, tornando-o mais acessível e intuitivo para os utilizadores -->
+                <!-- o required é para tornar o campo obrigatorio, e o minlength e maxlength é para colocar um cacterere minimo ou maximo e o size vai mostrar quantos caracteres o campo pode mostrar-->
+                <p><label for="inome">Nome:</label> 
+                    <input type="text" name="nome" id="inome" required maxlength="50" size="50" placeholder="Nome Completo"></p>
+                <p>
+                    <label for="igenero">Gênero:</label> <br>
+                    <label>
+                    <input type="radio" name="genero" value="masculino" required>
+                    Masculino
+                    <label> 
+                    <input type="radio" name="genero" value="feminino">
+                    Feminino
+                    </label>
+                    
+                </p>
+                <p><label for="inascimento">Data de nascimento:</label> 
+                    <input type="date" name="nascimento" id="inascimento" required></p>
+                <p><label for="iemail">E-mail:</label>
+                    <input type="email" name="email" id="iemail" required maxlength="50" size="50" placeholder="E-mail"></p>
+                <p><label for="isenha">Senha:</label>
+                    <input type="password" name="senha" id="isenha" required minlength="6" maxlength="12" size="12" placeholder="Senha"></p>
+                <p><input type="submit" value="Inscreva-se" class="enviar"></p>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
