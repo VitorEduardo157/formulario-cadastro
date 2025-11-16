@@ -1,6 +1,6 @@
 #  Formulário de Cadastro com PHP + Estilo Moderno
 
-Este é um projeto de formulário de cadastro desenvolvido com HTML, CSS e PHP. O sistema coleta os dados do usuário, calcula a idade com base na data de nascimento, e exibe uma mensagem personalizada de acordo com o gênero selecionado.
+Este é um projeto de formulário de cadastro desenvolvido com HTML, CSS,PHP e Bootstrap. O sistema coleta os dados do usuário, calcula a idade com base na data de nascimento, e exibe uma mensagem personalizada de acordo com o gênero selecionado.
 
 #  Funcionalidades
 
@@ -8,15 +8,6 @@ Este é um projeto de formulário de cadastro desenvolvido com HTML, CSS e PHP. 
 -  Cálculo preciso da idade com DateTime em PHP
 -  Exibição de imagem e mensagem de boas-vindas personalizada por gênero
 -  Estilo moderno, escuro e responsivo 
-
-# Tecnologias utilizadas
-
-- HTML5
-- CSS3
-- PHP
-- Bootstrap
-- VS Code
-- XAMPP (para rodar localmente)
 
 # Como executar localmente
 
@@ -27,5 +18,3 @@ Este é um projeto de formulário de cadastro desenvolvido com HTML, CSS e PHP. 
 - Inicie o Apache no painel do XAMPP
 - Acesse no navegador:  
         http://localhost/formulario-cadastro/index.html
-
-Este projeto está disponível para fins de estudo, portfólio e uso não comercial.
